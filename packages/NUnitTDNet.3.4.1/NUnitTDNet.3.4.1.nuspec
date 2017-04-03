@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NUnitTDNet</id>
+    <version>3.4.1</version>
+    <title>NUnit 3.4.1 framework for use with TestDriven.Net</title>
+    <authors>Jamie Cansdale, Charlie Poole</authors>
+    <owners>Jamie Cansdale, Charlie Poole</owners>
+    <licenseUrl>http://nunit.org/nuget/nunit3-license.txt</licenseUrl>
+    <projectUrl>http://testdriven.net/</projectUrl>
+    <iconUrl>http://nunit.org/nuget/nunitv3_32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package includes the NUnit 3.4.1 framework assembly, which is referenced by your tests. It also includes a test runner adapter that is used by TestDriven.Net when executing tests. The adapter is named 'nunit.framework.dll.tdnet' and must live in the same directory as the referenced 'nunit.framework.dll'.</description>
+    <summary>NUnit 3.4.1 framework and test runner adapter for TestDriven.Net</summary>
+    <releaseNotes>Update for NUnit 3.4.1</releaseNotes>
+    <copyright>Copyright (c) 2016 Jamie Cansdale, Charlie Poole</copyright>
+    <language>en-US</language>
+    <tags>nunit testdriven tdnet test testing tdd framework addin</tags>
+    <references>
+      <reference file="nunit.framework.dll" />
+    </references>
+  </metadata>
+</package>
